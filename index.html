@@ -1,163 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
-  
-  <script src="https://kit.fontawesome.com/46bf840cdc.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
 
-</head>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
+    <script
+      src="https://kit.fontawesome.com/46bf840cdc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
 
-
-<body> 
+  <body>
     <header>
+      <img src="assets/images/logo.svg" alt="" />
 
-      <img src="assets/images/logo.svg" alt="">
-    
       <button class="boton boton-blanco">Try it free</button>
     </header>
 
+    <main>
+      <section class="hero">
+        <div class="hero_container">
+          <h1>Build The Community Your Fans Will Love</h1>
 
-  <main>
-    <section class="hero"> 
-      <div class="hero_container" >  
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
 
-        <h1>Build The Community Your Fans Will Love </h1>
+          <button class="boton">Get Started For Free</button>
+        </div>
+        <img src="assets/images/screen-mockups.svg" />
+      </section>
 
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion.</p>
-    
-        <button class="boton">Get Started For Free</button>
-
-      </div>
-        <img src="assets/images/screen-mockups.svg">
-
-    </section> 
-
-
-
-
-  <section class="estadisticas">
-
-          <div class="estadisticas_container">
-            
-            <div>
-              <img src="assets/images/icon-communities.svg">
-              <span class="estadisticas_heading">1.4k+</span>
-              <p class="estadisticas_texto"> Communities Formed </p>
-            </div>
-            
-
-            <div>
-              <img src="assets/images/icon-communities.svg">
-              <span class="estadisticas_heading"> 2.7m+</span>
-              <p class="estadisticas_texto"> Messages Sent</p>
-            </div>
-
-
+      <section class="estadisticas">
+        <div class="estadisticas_container">
+          <div>
+            <img src="assets/images/icon-communities.svg" />
+            <span class="estadisticas_heading">1.4k+</span>
+            <p class="estadisticas_texto">Communities Formed</p>
           </div>
-  
-    </section>
 
+          <div>
+            <img src="assets/images/icon-communities.svg" />
+            <span class="estadisticas_heading"> 2.7m+</span>
+            <p class="estadisticas_texto">Messages Sent</p>
+          </div>
+        </div>
+      </section>
 
-  <section class="beneficios">
+      <section class="beneficios">
+        <div class="beneficios_container">
+          <div class="beneficios_card">
+            <h2>Grow Together</h2>
+            <p>
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+            <img src="assets/images/illustration-grow-together.svg" />
+          </div>
 
-      <div class="beneficios_container">
+          <div class="beneficios_card">
+            <h2>Flowing Conversations</h2>
+            <p>
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+            <img src="assets/images/illustration-flowing-conversation.svg" />
+          </div>
 
+          <div class="beneficios_card">
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+            <img src="assets/images/illustration-your-users.svg" />
+          </div>
+        </div>
+      </section>
 
-      <div class="beneficios_card">
-        <h2> Grow Together </h2>
-        <p> 
-        Generate meaningful discussions with your audience and build a strong, loyal community. 
-        Think of the insightful conversations you miss out on with a feedback form. 
-        </p>
-        <img src="assets/images/illustration-grow-together.svg">
-      </div>
-        
-      <div class="beneficios_card">
-        <h2> Flowing Conversations </h2>
-        <p> 
-          You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-          just-in-time loading for a more natural flow.
-        </p>
-        <img src="assets/images/illustration-flowing-conversation.svg">
-      </div>
-        
-      <div class="beneficios_card">
-        <h2>  Your Users </h2>
-        <p> 
-          It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-        once signed in to your app, your users can start chatting immediately.
-        </p>
-        <img src="assets/images/illustration-your-users.svg">
-      </div>
-      
-      </div>
-    
+      <section class="cta">
+        <h2>Ready To Build Your Community?</h2>
+        <button class="boton">Started For Free</button>
+      </section>
+    </main>
 
-    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="formulario">
+          <h2>Newsletter</h2>
+          <p>
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <input type="text" />
+          <button class="boton boton-radio">Subscribe</button>
+        </div>
 
-    <section class="cta">
+        <div class="contacto">
+          <img src="assets/images/logoBlanco.svg" />
 
-      <h2> Ready To Build Your Community? </h2>
-      <button class="boton">Started For Free</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
 
-    </section>
-
-  </main>
-
-
-  <footer>
-    <div class="footer-container">
-      <div class="formulario">
-        <h2> Newsletter </h2>
-        <p>
-          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-          send you spam or pass on your email address
-        </p>
-        <input type="text">
-        <button class="boton boton-radio"> Subscribe </button>
-
-      </div>
-      
-      <div class="contacto">
-        <img src="assets/images/logoBlanco.svg">
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-          vestibulum a, ultrices quis sem.
-        </p>
-        
-        <ul>
-          
-          <li>Phone: +1-543-123-4567</li>
-          <li>example@huddle.com</li>
-          
-        </ul>
-
-
+          <ul>
+            <li>Phone: +1-543-123-4567</li>
+            <li>example@huddle.com</li>
+          </ul>
+        </div>
       </div>
 
-        
-    </div>
-  
-    <div class="social">
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-twitter-square"></i>
-  
-    </div>
-       
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter-square"></i>
+      </div>
+
       <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Grupo 1101</a>.
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Grupo 1101</a>.
       </p>
     </footer>
-</body>
+  </body>
 </html>
