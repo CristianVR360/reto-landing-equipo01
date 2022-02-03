@@ -54,14 +54,14 @@ header {
 }
 
 header img {
-  width: 40%;
+  width: 10rem;
 }
 
 .boton-blanco {
   background-color: white;
   border: 1px solid var(--Light_Pink);
   color: var(--Light_Pink);
-  width: 30%;
+  width: 7rem;
   height: 4vh;
 }
 
