@@ -1,15 +1,15 @@
-# Front-end Style Guide
+# Guía de estilo de front-end
 
-## Layout
+## Disposición
 
-The designs were created to the following widths:
+Los diseños se crearon con los siguientes anchos:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+## Colores
 
-### Primary
+### Primario
 
 - Pink: hsl(322, 100%, 66%)
 - Light Pink: hsl(321, 100%, 78%)
@@ -20,21 +20,21 @@ The designs were created to the following widths:
 - Very Dark Cyan: hsl(192, 100%, 9%)
 - Very Pale Blue: hsl(207, 100%, 98%)
 
-## Typography
+## Tipografía
 
-### Headings
+### Encabezados
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 700
 
-### Body
+### Cuerpo
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400, 600, 700
 
-## Icons
+## Iconos
 
-For the social icons, you can use a font icon library. Some suggestions can be found below:
+Para los íconos sociales, puede usar una biblioteca de íconos de fuentes. Algunas sugerencias se pueden encontrar a continuación:
 
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
