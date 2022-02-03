@@ -1,0 +1,32 @@
+/* CSS Globales */
+
+/* fuente de letra Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* fuente de letra Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+  /* Colores Primarios */
+  --Pink: hsl(322, 100%, 66%);
+  --Light_Pink: hsl(321, 100%, 78%);
+  --Light_Red: hsl(0, 100%, 63%);
+
+  /* Colores Neutral */
+  --Very_Dark_Cyan: hsl(192, 100%, 9%);
+  --Very_Pale_Blue: hsl(207, 100%, 98%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: aqua;
+}
+
