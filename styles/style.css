@@ -29,3 +29,50 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.boton {
+  border-radius: 25px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* CSS Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 7vh;
+  margin: 0 auto;
+}
+
+header img {
+  width: 40%;
+}
+
+.boton-blanco {
+  background-color: white;
+  border: 1px solid var(--Light_Pink);
+  color: var(--Light_Pink);
+  width: 30%;
+  height: 4vh;
+}
+
+/* Fin CSS Header */
+
+
+/* CSS Footer */
+
+footer {
+  background-color: var(--Very_Dark_Cyan);
+  color: white;
+}
+
+/* Fin CSS Footer */
