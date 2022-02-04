@@ -1,8 +1,8 @@
 /* CSS Globales */
 
 /* fuente de letra Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,400&display=swap');
-/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
 
 /* fuente de letra Open Sans */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
@@ -42,6 +42,20 @@ body {
   width: 100%;
 }
 
+.btn_pink {
+  background-color: var(--Pink);
+  color: white;
+  border: none;
+}
+
+.btn_main {
+  width: 14rem;
+  height: 2.8rem;
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.09);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.09);
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.09);
+}
+
 /* CSS Header */
 
 header {
@@ -61,11 +75,50 @@ header img {
   background-color: white;
   border: 1px solid var(--Light_Pink);
   color: var(--Light_Pink);
-  width: 7rem;
+  width: 6rem;
   height: 4vh;
 }
 
 /* Fin CSS Header */
+
+/* CSS Hero */
+
+.hero {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 1.7rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10rem;
+}
+
+.hero p {
+  margin-top: 2rem;
+}
+
+.hero .boton {
+  margin-top: 4rem;
+}
+
+.image {
+  margin-top: 7rem;
+}
+
+/* Fin CSS Hero */
+
+/* CSS Estadisticas */
+
+.estadisticas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Fin CSS Estadisticas */
 
 /* CSS Footer */
 
