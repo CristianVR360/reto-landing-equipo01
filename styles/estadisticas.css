@@ -30,3 +30,13 @@
   font-size: 1.3rem;
   color: gray;
 }
+
+@media (min-width: 1366px) {
+
+  .estadisticas .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  
+}
