@@ -1,0 +1,20 @@
+.hero>.container{
+    text-align: center;
+}
+.hero h1{
+    padding: 10%;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.hero p{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0 
+}
+.button{
+    padding: 10px 20px
+    
+}
