@@ -45,7 +45,7 @@ div.container_footer p{
 
 
 
-ul{
+footer div div ul{
     display: flex-box;
     margin-left: auto;
     margin-right: auto;
@@ -65,12 +65,11 @@ ul{
 
 
 
-.fab fa-facebook-square{
-    margin-top: 70px;
-}
+
    
 
 .atributo{
     margin-top: 40px;
     text-align: center;
 }
+
