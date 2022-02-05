@@ -1,20 +1,34 @@
+.hero {
+    height: 40rem;
+    margin: 10rem 0;
+}
+
 .hero>.container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .hero h1{
-    padding: 10%;
-    margin-top: 20px;
-    margin-right: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0 0 5rem 0 ;
 }
+
 .hero p{
-    margin-top: 20px;
-    margin-right: 0;
-    margin-bottom: 10px;
-    margin-left: 0 
+    text-align: center;
+    margin: 0 0 5rem 0 ;
 }
-.button{
-    padding: 10px 20px
-    
+
+.boton_pink{
+    margin-bottom: 6rem;
+    padding: 1rem 3rem;
+    background-color: var(--Pink);
+    color: white;
+    border: none;
+
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.57);
 }
