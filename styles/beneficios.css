@@ -6,10 +6,24 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  position: relative;
 }
 
+.beneficios_medio{
+  min-height: 100vh;
+}
+
+.fondo_curvas{
+  background-color:var(--Very_Pale_Blue);
+}
+
+.curvas_desktop-top, .curvas_desktop-bottom{
+  display: none;
+}
+
+
 .beneficios_card img{
-  width: 350px;
+  width: 250px;
   margin: 0 auto;
 }
 
@@ -20,8 +34,12 @@
 
 @media (min-width: 769px ){
     .beneficios_card{
-      min-height: 50vh;
+      min-height: 40vh;
       flex-direction: row;
+    }
+
+    .beneficios_medio{
+      min-height: 60vh;
     }
 
     .main_derecho{
@@ -32,4 +50,10 @@
         text-align: start;
     }
 
+    .curvas_desktop-top, .curvas_desktop-bottom{
+    display: block;
+    }
+    .curvas_mobile-top, .curvas_mobile-bottom{
+    display: none;
+    }
 }

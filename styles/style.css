@@ -17,6 +17,7 @@
   /* Colores Neutral */
   --Very_Dark_Cyan: hsl(192, 100%, 9%);
   --Very_Pale_Blue: hsl(207, 100%, 98%);
+  --Hover-social: hsl(204, 95%, 59%);
 }
 
 * {
@@ -35,6 +36,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   line-height: 1.5;
+  color: var(--Very_Dark_Cyan)
 }
 
 h1, h2{
@@ -53,8 +55,16 @@ h1{
   font-weight: bold;
   font-size: clamp(0.8rem, 2vw, 1rem);
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
+.boton:hover{
+  background-color: var(--Light_Pink);
+}
+.boton-blanco:hover{
+  background-color: transparent;
+  color: var(--Light_Pink);
+}
 
 .container {
   width: 90%;
@@ -62,3 +72,26 @@ h1{
   max-width: 1300px;
 }
 
+.curva, .curva_bt{
+  position: relative;
+  width: 100%;
+}
+
+.curva img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-98%);
+  top: 0;
+  left: 0;
+  height: 90px;
+}
+
+
+.curva_bt img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(100%);
+  bottom: 0;
+  left: 0;
+  height: 90px;
+}

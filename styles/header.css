@@ -12,7 +12,7 @@ header img{
 }
 .boton-blanco {
   background-color: white;
-  border: 1px solid var(--Light_Pink);
-  color: var(--Light_Pink);
+  border: 1px solid var(--Pink);
+  color: var(--Pink);
   padding: 0.5rem 1rem;
 }
