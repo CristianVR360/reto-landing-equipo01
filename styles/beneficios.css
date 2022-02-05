@@ -6,7 +6,17 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  position: relative;
 }
+
+.fondo_curvas{
+  background-color:var(--Very_Pale_Blue);
+}
+
+.curvas_desktop-top, .curvas_desktop-bottom{
+  display: none;
+}
+
 
 .beneficios_card img{
   width: 350px;

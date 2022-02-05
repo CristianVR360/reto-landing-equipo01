@@ -55,10 +55,22 @@ h1{
   letter-spacing: 1px;
 }
 
-
 .container {
   width: 90%;
   margin: 0 auto;
   max-width: 1300px;
 }
 
+.curva{
+  
+  width: 100%;
+}
+
+.curva img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-98%);
+  top: 0;
+  left: 0;
+  height: 90px;
+}
