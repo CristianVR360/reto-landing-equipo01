@@ -20,7 +20,7 @@
 }
 
 .estadisticas_heading {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   color: var(--Very_Dark_Cyan);
 }
@@ -31,12 +31,10 @@
   color: gray;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1024px) {
 
   .estadisticas .container {
     flex-direction: row;
     justify-content: space-around;
   }
-
-  
 }

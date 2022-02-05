@@ -5,16 +5,14 @@ header {
   width: 90%;
   height: 7vh;
   margin: 0 auto;
+  padding: 3rem 1rem;
 }
-
-header img {
-  width: 10rem;
+header img{
+  width: 7rem;
 }
-
 .boton-blanco {
   background-color: white;
   border: 1px solid var(--Light_Pink);
   color: var(--Light_Pink);
-  width: 7rem;
-  height: 4vh;
+  padding: 0.5rem 1rem;
 }

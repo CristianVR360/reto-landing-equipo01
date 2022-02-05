@@ -3,22 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
     <link rel="stylesheet" href="styles/master.css" />
   </head>
 
   <body>
-    <header>
+    <header class="container">
       <img src="assets/images/logo.svg" alt="logo" />
 
       <button class="boton boton-blanco">Try it free</button>
@@ -37,9 +33,7 @@
 
           <button class="boton boton_pink">Get Started For Free</button>
         </div>
-        <div class="image">
-          <img src="assets/images/screen-mockups.svg" />
-        </div>
+        <img src="assets/images/screen-mockups.svg" />
       </section>
 
       <section class="estadisticas">
@@ -107,54 +101,59 @@
       <section class="cta">
         <div class="container">
           <h2>Ready To Build Your Community?</h2>
-          <button class="boton">Started For Free</button>
+          <button class="boton boton_pink">Started For Free</button>
         </div>
       </section>
     </main>
-    <div class="curva"></div> 
+    
     <footer>
+      <div class="container">
+        <div class="curva">
+          <img class="curva_footer-mobile" src="./assets/images/bg-footer-top-mobile.svg" alt="">
+          <img class="curva_footer-desktop" src="./assets/images/bg-footer-top-desktop.svg" alt="">
+        </div>
         <div class="container_footer">
-        <div class="formulario">
-          <h2>Newsletter</h2>
-          <p>
-            To recieve tips on how to grow your community, sign up to our weekly
-            newsletter. We’ll never send you spam or pass on your email address
-          </p>
-          <input type="text" />
-          <button class="boton boton-radio">Subscribe</button>
+          <div class="formulario">
+            <h2>Newsletter</h2>
+            <p>
+              To recieve tips on how to grow your community, sign up to our weekly
+              newsletter. We’ll never send you spam or pass on your email address
+            </p>
+            <input type="text" />
+            <button class="boton boton-radio">Subscribe</button>
+          </div>
+
+          <div class="contacto">
+            <img src="assets/images/logoBlanco.svg" />
+
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+
+            <ul>
+              <li class="footer_ul-li--phone"> Phone: +1-543-123-4567</li>
+              <li class="footer_ul-li--mail"> example@huddle.com</li>
+            </ul>
+          </div>
         </div>
-
-        <div class="contacto">
-          <img src="assets/images/logoBlanco.svg" />
-
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-          </p>
-
-          <ul>
-            <li class="footer_ul-li--phone">Phone: +1-543-123-4567</li>
-            <liclass="footer_ul-li--mail"></liclass> example@huddle.com</li>
-          </ul>
-        </div>
-
         <div class="social">
           <i class="fab fa-facebook-square"></i>
           <i class="fab fa-instagram"></i>
           <i class="fab fa-twitter-square"></i>
         </div>
-      </div>
-      <div>
-        <div class="atributo">
-          <p>
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              >Frontend Mentor</a
-            >. Coded by <a href="#">Grupo 1101</a>.
-          </p>
+        <div>
+          <div class="atributo">
+            <p>
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >. Coded by <a href="#">Grupo 1101</a>.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

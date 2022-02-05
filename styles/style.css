@@ -25,53 +25,40 @@
   box-sizing: border-box;
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 1.6rem;
 }
 
 .boton {
   border-radius: 25px;
+  background-color: var(--Pink);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  letter-spacing: 1px;
 }
+
 
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1300px;
 }
 
-.image img {
-  width: 100%;
-}
-
-/* CSS Header */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  height: 7vh;
-  margin: 0 auto;
-}
-
-header img {
-  width: 10rem;
-}
-
-.boton-blanco {
-  background-color: white;
-  border: 1px solid var(--Light_Pink);
-  color: var(--Light_Pink);
-  width: 7rem;
-  height: 4vh;
-}
-
-/* Fin CSS Header */
-
-/* CSS Footer */
-
-footer {
-  background-color: var(--Very_Dark_Cyan);
-  color: white;
-}
-
-/* Fin CSS Footer */

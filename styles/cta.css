@@ -1,0 +1,11 @@
+.cta {
+  text-align: center;
+  padding-block: max(10vh, 100px);
+  
+}
+
+.cta .boton{
+  margin-top: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.274) 0px 7px 29px 0px;
+}
+
