@@ -12,7 +12,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
+  padding-block: max(10vh, 50px);
 }
 
 .card img {

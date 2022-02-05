@@ -33,6 +33,11 @@ footer input{
   border-radius:10px;
 }
 
+footer h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .boton-radio{
     margin-top:20px;
     margin-bottom: 60px;
@@ -55,20 +60,27 @@ ul{
 
 .footer_ul-li--phone {
     padding-block: 0.5rem;
+    padding-left: 1rem;
     font-size: 12pt;
-    list-style-image: url("/assets/images/phone.svg"); 
+    list-style-image: url("/assets/images/icon-phone.svg"); 
 }
 
 .footer_ul-li--mail {
     font-size: 12pt;
-    list-style-image: url("/assets/images/phone.svg"); 
+    padding-left: 1rem;
+    list-style-image: url("/assets/images/icon-email.svg"); 
 }
 
 .fab{
+  padding-top: 1rem;
   font-size: 2rem;
   padding-inline: 1rem;
+  cursor: pointer;
 }
 
+.fab:hover{
+  color: var(--Hover-social);
+}
 
 .atributo{
     margin-top: 40px;
