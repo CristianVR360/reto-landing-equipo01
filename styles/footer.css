@@ -1,0 +1,123 @@
+
+footer{
+    position: relative;
+    text-align: start;
+    padding: 30px;
+    margin-top:0;
+    color:white;
+    background-color:hsl(192, 100%, 9%);
+}
+
+.curva img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-98%);
+  top: 0;
+  left: 0;
+  height: 90px;
+}
+
+.curva_footer-desktop{
+  display: none;
+}
+
+.formulario{
+  padding-top: 3rem;
+}
+
+footer input{
+  margin-top: 20px;
+  display: inline;
+  width: 100%;
+  height: 60px;
+  border-radius:10px;
+}
+
+footer h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.boton-radio{
+    margin-top:20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    font-size: 16pt;
+    padding: 0.5rem 1rem;
+}
+
+.container_footer p{
+    margin-top:20px;
+    padding-bottom: 1rem;
+}
+
+ul{
+    padding-block: 1rem;
+    margin-left: 2rem;
+}
+
+.footer_ul-li--phone {
+    padding-block: 0.5rem;
+    padding-left: 1rem;
+    font-size: 12pt;
+    list-style-image: url("/assets/images/icon-phone.svg"); 
+}
+
+.footer_ul-li--mail {
+    font-size: 12pt;
+    padding-left: 1rem;
+    list-style-image: url("/assets/images/icon-email.svg"); 
+}
+
+.fab{
+  padding-top: 1rem;
+  font-size: 2rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+.fab:hover{
+  color: var(--Hover-social);
+}
+
+.atributo{
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+  .container_footer{
+    
+    display: flex;
+    gap: 2rem;
+  }
+
+  .formulario{
+    order: 1;
+  }
+
+  .curva_footer-desktop{
+  display: block;
+  }
+
+  .curva_footer-mobile{
+  display: none;
+  }
+
+  .boton-radio{
+    display: inline;
+    margin-left: 2rem;
+  }
+
+  footer input{
+    width: 300px;
+  }
+
+  .formulario{
+    padding-top: 0;
+  }
+}
+
+

@@ -3,29 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-    <script
-      src="https://kit.fontawesome.com/46bf840cdc.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/master.css" />
   </head>
 
   <body>
-    <header>
-      <img src="assets/images/logo.svg" alt="" />
+    <header class="container">
+      <img src="assets/images/logo.svg" alt="logo" />
 
       <button class="boton boton-blanco">Try it free</button>
     </header>
 
     <main>
       <section class="hero">
-        <div class="hero_container">
+        <div class="container">
           <h1>Build The Community Your Fans Will Love</h1>
 
           <p>
@@ -34,21 +31,21 @@
             engage in genuine discussion.
           </p>
 
-          <button class="boton">Get Started For Free</button>
+          <button class="boton boton_pink">Get Started For Free</button>
         </div>
         <img src="assets/images/screen-mockups.svg" />
       </section>
 
       <section class="estadisticas">
-        <div class="estadisticas_container">
-          <div>
+        <div class="container">
+          <div class="card">
             <img src="assets/images/icon-communities.svg" />
             <span class="estadisticas_heading">1.4k+</span>
             <p class="estadisticas_texto">Communities Formed</p>
           </div>
 
-          <div>
-            <img src="assets/images/icon-communities.svg" />
+          <div class="card">
+            <img src="assets/images/icon-messages.svg" />
             <span class="estadisticas_heading"> 2.7m+</span>
             <p class="estadisticas_texto">Messages Sent</p>
           </div>
@@ -56,84 +53,130 @@
       </section>
 
       <section class="beneficios">
-        <div class="beneficios_container">
-          <div class="beneficios_card">
-            <h2>Grow Together</h2>
-            <p>
-              Generate meaningful discussions with your audience and build a
-              strong, loyal community. Think of the insightful conversations you
-              miss out on with a feedback form.
-            </p>
-            <img src="assets/images/illustration-grow-together.svg" />
+        <div class="curva">
+          <img class="curvas_desktop-top" src="./assets/images/bg-section-top-desktop-1.svg" alt="">
+          <img class="curvas_mobile-top" src="./assets/images/bg-section-top-mobile-1.svg" alt="">
+        </div>
+        <div class="fondo_curvas">
+          <div class=" beneficios_card container">
+            <div class="image img_derecha">
+              <img src="assets/images/illustration-grow-together.svg" />
+            </div>
+            <div class="beneficios_main main_derecho">
+              <h2>Grow Together</h2>
+              <p>
+                Generate meaningful discussions with your audience and build a
+                strong, loyal community. Think of the insightful conversations
+                you miss out on with a feedback form.
+              </p>
+            </div>
           </div>
+        </div>
+        <div class="curva_bt">
+          <img class="curvas_desktop-bottom" src="./assets/images/bg-section-bottom-desktop-1.svg" alt="">
+          <img class="curvas_mobile-bottom" src="./assets/images/bg-section-bottom-mobile-1.svg" alt="">
+        </div>
 
-          <div class="beneficios_card">
-            <h2>Flowing Conversations</h2>
-            <p>
-              You wouldn't paginate a conversation in real life, so why do it
-              online? Our threads have just-in-time loading for a more natural
-              flow.
-            </p>
+        <div class="beneficios_medio beneficios_card container">
+          <div class="image">
             <img src="assets/images/illustration-flowing-conversation.svg" />
           </div>
-
-          <div class="beneficios_card">
-            <h2>Your Users</h2>
-            <p>
-              It takes no time at all to integrate Huddle with your app's
-              authentication solution. This means, once signed in to your app,
-              your users can start chatting immediately.
-            </p>
-            <img src="assets/images/illustration-your-users.svg" />
+          <div class="beneficios_main">
+            <h2>Flowing Conversations</h2>
+          <p>
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
           </div>
+        </div>
+        <div class="curva">
+          <img class="curvas_desktop-top" src="./assets/images/bg-section-top-desktop-2.svg" alt="">
+          <img class="curvas_mobile-top" src="./assets/images/bg-section-top-mobile-2.svg" alt="">
+        </div>
+        <div class="fondo_curvas">
+          <div class="beneficios_card container">
+            <div class="image img_derecha">
+              <img src="assets/images/illustration-your-users.svg" />
+            </div>
+            <div class="beneficios_main main_derecho">
+              <h2>Your Users</h2>
+              <p>
+                It takes no time at all to integrate Huddle with your app's
+                authentication solution. This means, once signed in to your app,
+                your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="curva_bt">
+          <img class="curvas_desktop-bottom" src="./assets/images/bg-section-bottom-desktop-2.svg" alt="">
+          <img class="curvas_mobile-bottom" src="./assets/images/bg-section-bottom-mobile-2.svg" alt="">
         </div>
       </section>
 
       <section class="cta">
-        <h2>Ready To Build Your Community?</h2>
-        <button class="boton">Started For Free</button>
+        <div class="container">
+          <h2>Ready To Build Your Community?</h2>
+          <button class="boton boton_pink">Started For Free</button>
+        </div>
       </section>
     </main>
-
+    <div class="curva">
+      <img class="curva_footer-mobile" src="./assets/images/bg-footer-top-mobile.svg" alt="">
+      <img class="curva_footer-desktop" src="./assets/images/bg-footer-top-desktop.svg" alt="">
+    </div>
     <footer>
-      <div class="footer-container">
-        <div class="formulario">
-          <h2>Newsletter</h2>
-          <p>
-            To recieve tips on how to grow your community, sign up to our weekly
-            newsletter. We’ll never send you spam or pass on your email address
-          </p>
-          <input type="text" />
-          <button class="boton boton-radio">Subscribe</button>
+      <div class="container">
+        
+        <div class="container_footer">
+          <div class="formulario">
+            <h2>Newsletter</h2>
+            <p>
+              To recieve tips on how to grow your community, sign up to our weekly
+              newsletter. We’ll never send you spam or pass on your email address
+            </p>
+            <input type="text" />
+            <button class="boton boton-radio">Subscribe</button>
+          </div>
+
+          <div class="contacto">
+            <img src="assets/images/logoBlanco.svg" />
+
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+
+            <ul>
+              <li class="footer_ul-li--phone"> Phone: +1-543-123-4567</li>
+              <li class="footer_ul-li--mail"> example@huddle.com</li>
+            </ul>
+          </div>
         </div>
-
-        <div class="contacto">
-          <img src="assets/images/logoBlanco.svg" />
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-          </p>
-
-          <ul>
-            <li>Phone: +1-543-123-4567</li>
-            <li>example@huddle.com</li>
-          </ul>
+        <div class="social">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+        </div>
+        <div>
+          <div class="atributo">
+            <p>
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >. Coded by <a href="#">Grupo 1101</a>.
+            </p>
+          </div>
         </div>
       </div>
-
-      <div class="social">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter-square"></i>
-      </div>
-
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Grupo 1101</a>.
-      </p>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/46bf840cdc.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -17,6 +17,7 @@
   /* Colores Neutral */
   --Very_Dark_Cyan: hsl(192, 100%, 9%);
   --Very_Pale_Blue: hsl(207, 100%, 98%);
+  --Hover-social: hsl(204, 95%, 59%);
 }
 
 * {
@@ -25,31 +26,72 @@
   box-sizing: border-box;
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
 body {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
-
+  text-align: center;
+  line-height: 1.5;
+  color: var(--Very_Dark_Cyan)
 }
 
-.hero{
-  padding: 80px 0 40px;
+h1, h2{
+  font-family: 'Poppins', sans-serif;
 }
 
-.hero>div>h1{
-  padding: 0 0 25px 0;
+h1{
+  font-size: 1.6rem;
 }
 
-.hero>div>p{
-  max-width: 280px;
-  margin:   0 auto;
+.boton {
+  border-radius: 25px;
+  background-color: var(--Pink);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-.hero img{
-  width: 215px;
-  height: 180px;
-  margin: 80px;
-  border: 2px solid #fff;
-  
+.boton:hover{
+  background-color: var(--Light_Pink);
+}
+.boton-blanco:hover{
+  background-color: transparent;
+  color: var(--Light_Pink);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.curva, .curva_bt{
+  position: relative;
+  width: 100%;
+}
+
+.curva img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-98%);
+  top: 0;
+  left: 0;
+  height: 90px;
 }
 
 
+.curva_bt img{
+  position: absolute;
+  width: 100%;
+  transform: translateY(100%);
+  bottom: 0;
+  left: 0;
+  height: 90px;
+}

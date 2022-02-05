@@ -1,0 +1,40 @@
+.estadisticas {
+  margin-bottom: 10rem;
+}
+
+.estadisticas .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding-block: max(10vh, 50px);
+}
+
+.card img {
+  width: 2.5rem;
+}
+
+.estadisticas_heading {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--Very_Dark_Cyan);
+}
+
+.card p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: gray;
+}
+
+@media (min-width: 1024px) {
+
+  .estadisticas .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
