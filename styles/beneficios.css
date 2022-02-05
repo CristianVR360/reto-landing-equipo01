@@ -13,5 +13,37 @@
 .beneficios_card p{
     text-align: center;
     padding: 30px 0 225px;
-   
+}
+
+@media (min-width: 1366px ){
+    .beneficios_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_derecha{
+        position: relative;
+        left: 725px;
+    }
+
+    .main_derecho{
+        position: relative;
+        right: 500px;
+    }
+
+    .beneficios_card h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .beneficios_card p{
+        font-size: 1.5rem;
+    }
+
+    .beneficios_card h2, 
+    .beneficios_card p{
+        text-align: start;
+    }
+
 }
